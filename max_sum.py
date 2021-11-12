@@ -1,4 +1,9 @@
+# input sample: 3
+# output sample: 1 2
+# this script outputs digits which are needed to sum an input's one, and also their amount
+
 import sys
+
 def find_sum(initial_number):
     consists = []
     initial_number = int(initial_number)
